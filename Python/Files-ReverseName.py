@@ -1,5 +1,6 @@
 # Reverses filenames in folder
 # Example: Turns "12-02-2020.json" into "2020-02-12.json"
+# Created 2020/02/09
 
 # Reads all lines from a file, removes duplicates and saves them sorted into another file.
 # Created by Wesley Pyburn (TechNobo)
