@@ -11,6 +11,13 @@
 ExitApp
 Return
 
+PasteInput(str)
+{
+	clipboard = %str%
+	Send ^v
+	Return
+}
+
 $backspace::
 Loop, 8 
 {
@@ -19,561 +26,453 @@ Loop, 8
 Return
 
 $a::
-clipboard = 01100001
-Send ^v
+$b::
+MsgBox, %A_ThisHotkey%
+PasteInput(01100001)
 Return
 
-$b::
-clipboard = 01100010
-Send ^v
-Return
+; $b::
+; PasteInput(01100010)
+; Return
 
 $c::
-clipboard = 01100011
-Send ^v
+PasteInput(01100011)
 Return
 
 $d::
-clipboard = 01100100
-Send ^v
+PasteInput(01100100)
 Return
 
 $e::
-clipboard = 01100101
-Send ^v
+PasteInput(01100101)
 Return
 
 $f::
-clipboard = 01100110 
-Send ^v
+PasteInput(01100110)
 Return
 
 $g::
-clipboard = 01100111 
-Send ^v
+PasteInput(01100111)
 Return
 
 $h::
-clipboard = 01101000 
-Send ^v
+PasteInput(01101000)
 Return
 
 $i::
-clipboard = 01101001 
-Send ^v
+PasteInput(01101001)
 Return
 
 $j::
-clipboard = 01101010 
-Send ^v
+PasteInput(01101010)
 Return
 
 $k::
-clipboard = 01101011 
-Send ^v
+PasteInput(01101011)
 Return
 
 $l::
-clipboard = 01101100 
-Send ^v
+PasteInput(01101100)
 Return
 
 $m::
-clipboard = 01101101
-Send ^v
+PasteInput(01101101)
 Return
 
 $n::
-clipboard = 01101110
-Send ^v
+PasteInput(01101110)
 Return
 
 $o::
-clipboard = 01101111 
-Send ^v
+PasteInput(01101111)
 Return
 
 $p::
-clipboard = 01110000 
-Send ^v
+PasteInput(01110000)
 Return
 
 $q::
-clipboard = 01110001 
-Send ^v
+PasteInput(01110001)
 Return
 
 $r::
-clipboard = 01110010 
-Send ^v
+PasteInput(01110010)
 Return
 
 $s::
-clipboard = 01110011
-Send ^v
+PasteInput(01110011)
 Return
 
 $t::
-clipboard = 01110100
-Send ^v
+PasteInput(01110100)
 Return
 
 $u::
-clipboard = 01110101 
-Send ^v
+PasteInput(01110101)
 Return
 
 $v::
-clipboard = 01110110 
-Send ^v
+PasteInput(01110110)
 Return
 
 $w::
-clipboard = 01110111
-Send ^v
+PasteInput(01110111)
 Return
 
 $x::
-clipboard = 01111000 
-Send ^v
+PasteInput(01111000)
 Return
 
 $y::
-clipboard = 01111001 
-Send ^v
+PasteInput(01111001)
 Return
 
 $z::
-clipboard = 01111010
-Send ^v
+PasteInput(01111010)
 Return
 
 $1::
-clipboard = 00110001 
-Send ^v
+PasteInput(00110001)
 Return
 
 $2::
-clipboard = 00110010 
-Send ^v
+PasteInput(00110010)
 Return
 
 $3::
-clipboard = 00110011 
-Send ^v
+PasteInput(00110011)
 Return
 
 $4::
-clipboard = 00110100 
-Send ^v
+PasteInput(00110100)
 Return
 
 $5::
-clipboard = 00110101 
-Send ^v
+PasteInput(00110101)
 Return
 
 $6::
-clipboard = 00110110 
-Send ^v
+PasteInput(00110110)
 Return
 
 $7::
-clipboard = 00110111 
-Send ^v
+PasteInput(00110111)
 Return
 
 $8::
-clipboard = 00111000 
-Send ^v
+PasteInput(00111000)
 Return
 
 $9::
-clipboard = 00111001
-Send ^v
+PasteInput(00111001)
 Return
 
 $0::
-clipboard = 00110000
-Send ^v
+PasteInput(00110000)
 Return
 
 
 $-::
-clipboard = 00101101 
-Send ^v
+PasteInput(00101101)
 Return
 
 $=::
-clipboard = 00111101
-Send ^v
+PasteInput(00111101)
 Return
 
 $[::
-clipboard = 01011011 
-Send ^v
+PasteInput(01011011)
 Return
 
 $]::
-clipboard = 01011101
-Send ^v
+PasteInput(01011101)
 Return
 
 $;::
-clipboard = 00111011 
-Send ^v
+PasteInput(00111011)
 Return
 
 $'::
-clipboard = 00100111
-Send ^v
+PasteInput(00100111)
 Return
 
 $,::
-clipboard = 00101100 
-Send ^v
+PasteInput(00101100)
 Return
 
 $.::
-clipboard = 00101110
-Send ^v
+PasteInput(00101110)
 Return
 
 $/::
-clipboard = 00101111
-Send ^v
+PasteInput(00101111)
 Return
 
 $\::
-clipboard = 01011100
-Send ^v
+PasteInput(01011100)
 Return
 
 $_::
-clipboard = 01011111 
-Send ^v
+PasteInput(01011111)
 Return
 
 $+::
-clipboard = 00101011
-Send ^v
+PasteInput(00101011)
 Return
 
 ${::
-clipboard = 01111011 
-Send ^v
+PasteInput(01111011)
 Return
 
 $}::
-clipboard = 01111101 
-Send ^v
+PasteInput(01111101)
 Return
 
 $|::
-clipboard = 01111100
-Send ^v
+PasteInput(01111100)
 Return
 
 $:::
-clipboard = 00111010 
-Send ^v
+PasteInput(00111010)
 Return
 
 $"::
-clipboard = 00100010
-Send ^v
+PasteInput(00100010)
 Return
 
 $<::
-clipboard = 00111100 
-Send ^v
+PasteInput(00111100)
 Return
 
 $>::
-clipboard = 00111110
-Send ^v
+PasteInput(00111110)
 Return
 
 $?::
-clipboard = 00111111
-Send ^v
+PasteInput(00111111)
 Return
 
 $Numpad1::
-clipboard = 00110001 
-Send ^v
+PasteInput(00110001)
 Return
 
 $Numpad2::
-clipboard = 00110010 
-Send ^v
+PasteInput(00110010)
 Return
 
 $Numpad3::
-clipboard = 00110011 
-Send ^v
+PasteInput(00110011)
 Return
 
 $Numpad4::
-clipboard = 00110100 
-Send ^v
+PasteInput(00110100)
 Return
 
 $Numpad5::
-clipboard = 00110101 
-Send ^v
+PasteInput(00110101)
 Return
 
 $Numpad6::
-clipboard = 00110110 
-Send ^v
+PasteInput(00110110)
 Return
 
 $Numpad7::
-clipboard = 00110111 
-Send ^v
+PasteInput(00110111)
 Return
 
 $Numpad8::
-clipboard = 00111000 
-Send ^v
+PasteInput(00111000)
 Return
 
 $Numpad9::
-clipboard = 00111001
-Send ^v
+PasteInput(00111001)
 Return
 
 $Numpad0::
-clipboard = 00110000
-Send ^v
+PasteInput(00110000)
 Return
 
 
 
 $~::
-clipboard = 01111110 
-Send ^v
+PasteInput(01111110)
 Return
 
 $!::
-clipboard = 00100001 
-Send ^v
+PasteInput(00100001)
 Return
 
 $@::
-clipboard = 01000000 
-Send ^v
+PasteInput(01000000)
 Return
 
 $#::
-clipboard =00100011 
-Send ^v
+clipboard =00100011)
 Return
 
 $$::
-clipboard = 00100100 
-Send ^v
+PasteInput(00100100)
 Return
 
 $%::
-clipboard = 00100101 
-Send ^v
+PasteInput(00100101)
 Return
 
 $^::
-clipboard = 01011110 
-Send ^v
+PasteInput(01011110)
 Return
 
 $&::
-clipboard = 00100110
-Send ^v
+PasteInput(00100110)
 Return
 
 $*::
-clipboard = 00101010
-Send ^v
+PasteInput(00101010)
 Return
 
 $(::
-clipboard = 00101000 
-Send ^v
+PasteInput(00101000)
 Return
 
 $)::
-clipboard = 00101001
-Send ^v
+PasteInput(00101001)
 Return
  
 $space::
-clipboard = 00100000
-Send ^v
+PasteInput(00100000)
 Return
 
 $+A::
-clipboard = 01000001
-Send ^v
+PasteInput(01000001)
 Return
 
 $+B::
-clipboard = 01000010 
-Send ^v
+PasteInput(01000010)
 Return
 
 $+C::
-clipboard = 01000011 
-Send ^v
+PasteInput(01000011)
 Return
 
 $+D::
-clipboard = 01000100 
-Send ^v
+PasteInput(01000100)
 Return
 
 $+E::
-clipboard = 01000101 
-Send ^v
+PasteInput(01000101)
 Return
 
 $+F::
-clipboard = 01000110 
-Send ^v
+PasteInput(01000110)
 Return
 
 $+G::
-clipboard = 01000111 
-Send ^v
+PasteInput(01000111)
 Return
 
 $+H::
-clipboard = 01001000 
-Send ^v
+PasteInput(01001000)
 Return
 
 $+I::
-clipboard = 01001001 
-Send ^v
+PasteInput(01001001)
 Return
 
 $+J::
-clipboard = 01001010 
-Send ^v
+PasteInput(01001010)
 Return
 
 $+K::
-clipboard = 01001011 
-Send ^v
+PasteInput(01001011)
 Return
 
 $+L::
-clipboard = 01001100 
-Send ^v
+PasteInput(01001100)
 Return
 
 $+M::
-clipboard = 01001101 
-Send ^v
+PasteInput(01001101)
 Return
 
 $+N::
-clipboard = 01001110 
-Send ^v
+PasteInput(01001110)
 Return
 
 $+O::
-clipboard = 01001111 
-Send ^v
+PasteInput(01001111)
 Return
 
 $+P::
-clipboard = 01010000 
-Send ^v
+PasteInput(01010000)
 Return
 
 $+Q::
-clipboard = 01010001 
-Send ^v
+PasteInput(01010001)
 Return
 
 $+R::
-clipboard = 01010010 
-Send ^v
+PasteInput(01010010)
 Return
 
 $+S::
-clipboard = 01010011 
-Send ^v
+PasteInput(01010011)
 Return
 
 $+T::
-clipboard = 01010100 
-Send ^v
+PasteInput(01010100)
 Return
 
 $+U::
-clipboard = 01010101 
-Send ^v
+PasteInput(01010101)
 Return
 
 $+V::
-clipboard = 01010110 
-Send ^v
+PasteInput(01010110)
 Return
 
 $+W::
-clipboard = 01010111 
-Send ^v
+PasteInput(01010111)
 Return
 
 $+X::
-clipboard = 01011000 
-Send ^v
+PasteInput(01011000)
 Return
 
 $+Y::
-clipboard = 01011001 
-Send ^v
+PasteInput(01011001)
 Return
 
 $+Z::
-clipboard = 01011010
-Send ^v
+PasteInput(01011010)
 Return
 
 $NumpadDiv::
-clipboard = 00101111 
-Send ^v
+PasteInput(00101111)
 Return
 
 
 $NumpadMult::
-clipboard = 00101010 
-Send ^v
+PasteInput(00101010)
 Return
 
 
 $NumpadSub::
-clipboard = 00101101 
-Send ^v
+PasteInput(00101101)
 Return
 
 
 $NumpadAdd::
-clipboard = 00101011 
-Send ^v
+PasteInput(00101011)
 Return
 
 
 $NumpadDot::
-clipboard = 00101110
-Send ^v
+PasteInput(00101110)
 Return
 
 $Enter::
 $NumpadEnter::
-clipboard = 0000110100001010
-Send ^v
+PasteInput(0000110100001010)
 Return
 
 
