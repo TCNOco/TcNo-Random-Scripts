@@ -1,0 +1,30 @@
+// Unfortunately I don't remember the origin of this script, but it's super useful.
+// https://store.steampowered.com/explore/
+
+var Queue = function(x) {
+    console.log('Current queue: ' + ++x);
+
+    jQuery.post('https://store.steampowered.com/explore/generatenewdiscoveryqueue', {
+        sessionid: g_sessionID,
+        queuetype: 0
+    }).done(function(data) {
+        var requests = [];
+
+        for (var i = 0; i < data.queue.length; i++) {
+            requests.push(jQuery.post('https://store.steampowered.com/app/10', {
+                appid_to_clear_from_queue: data.queue[i],
+                sessionid: g_sessionID
+            }));
+        }
+
+        jQuery.when.apply(jQuery, requests).done(function() {
+            if (x < 3) {
+                Queue(x);
+            } else {
+                window.location.reload();
+            }
+        });
+    });
+};
+
+Queue(0);
