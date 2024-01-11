@@ -11,6 +11,13 @@
 # This should allow you to drag images onto the .bat, processing them with this file.
 # NOTE: Both the .py file and bat file, named as above, should be in the same folder when run.
 
+# REQUIREMENTS:
+# pip install pillow
+# cwebp in PATH (https://developers.google.com/speed/webp/download)
+# exiftool (https://exiftool.org/install.html)
+
+# VIDEO GUIDE: https://youtu.be/sCXVjB_hTzU
+
 import sys
 import os
 
