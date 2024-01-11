@@ -3,7 +3,7 @@
 // on the current webpage, and logs the result to the console in a human-readable format.
 //
 // Created by Wesley Pyburn (TroubleChute)
-// https://github.com/TcNobo/TcNo-Random-Scripts
+// https://github.com/TcNoco/TcNo-Random-Scripts
 
 // Initialize total size variable to 0
 let totalSize = 0;

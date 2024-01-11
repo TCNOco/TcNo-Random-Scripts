@@ -5,7 +5,7 @@ REM Add cwebp to PATH for this to work, or define the full path.
 REM Created March 2021
 
 REM Created by Wesley Pyburn (TroubleChute)
-REM https://github.com/TcNobo/TcNo-Random-Scripts
+REM https://github.com/TcNoco/TcNo-Random-Scripts
 
 set outfolder=webp\
 set quality=75

@@ -1,6 +1,6 @@
 # Reads all lines from a file, removes duplicates and saves them sorted into another file.
 # Created by Wesley Pyburn (TroubleChute)
-# https://github.com/TcNobo/TcNo-Random-Scripts
+# https://github.com/TcNoco/TcNo-Random-Scripts
 
 #------------------
 # Define files here manually, if you'd like to not be asked.

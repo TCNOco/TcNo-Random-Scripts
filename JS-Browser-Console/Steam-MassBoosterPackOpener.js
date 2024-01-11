@@ -6,7 +6,7 @@
 // Obviously, this is not how Steam intended for the system to be used, so use at your own risk. It's mostly here to learn from if you wanted to do anything similar for any site or project.
 //
 // Created by Wesley Pyburn (TroubleChute)
-// https://github.com/TcNobo/TcNo-Random-Scripts
+// https://github.com/TcNoco/TcNo-Random-Scripts
 // Based on: https://stackoverflow.com/questions/22997516/to-find-all-emails-on-a-page/22997761
 
 var startIndex = 0;

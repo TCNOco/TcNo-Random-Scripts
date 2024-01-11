@@ -4,7 +4,7 @@
 // Don't use this for spam :)
 //
 // Created by Wesley Pyburn (TroubleChute)
-// https://github.com/TcNobo/TcNo-Random-Scripts
+// https://github.com/TcNoco/TcNo-Random-Scripts
 // Based on: https://stackoverflow.com/questions/22997516/to-find-all-emails-on-a-page/22997761
 
 var arrCur = document.body.innerHTML.toString().match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi); // Collect emails on page

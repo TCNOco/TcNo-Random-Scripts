@@ -1,10 +1,10 @@
 ; Centers any active window to the screen. Multi Monitor compatible version -- Centers to whichever monitor app is on.
 ; Thanks to Darxide23 (https://github.com/Darxide23) for suggesting this code.
-; https://github.com/TcNobo/TcNo-Random-Scripts/issues/1
+; https://github.com/TcNoco/TcNo-Random-Scripts/issues/1
 ; Press Start+C to center any window to whichever screen it is currently on.
 ; Created June 2022
 
-; https://github.com/TcNobo/TcNo-Random-Scripts
+; https://github.com/TcNoco/TcNo-Random-Scripts
 
 #c::
 winHandle := WinExist("A") ; The window to operate on

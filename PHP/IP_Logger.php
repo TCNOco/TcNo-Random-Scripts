@@ -5,7 +5,7 @@
 // Created Feb 2018
 
 // Created by Wesley Pyburn (TroubleChute)
-// https://github.com/TcNobo/TcNo-Random-Scripts
+// https://github.com/TcNoco/TcNo-Random-Scripts
 
 header("Location: https://google.com");
 $handle = fopen("logged.txt", "a");

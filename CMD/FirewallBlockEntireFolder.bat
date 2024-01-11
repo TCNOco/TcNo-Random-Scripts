@@ -5,7 +5,7 @@ REM Created sometime in 2020
 REM Video guide: https://youtu.be/4AH4SV7bGN0
 
 REM Created by Wesley Pyburn (TroubleChute)
-REM https://github.com/TcNobo/TcNo-Random-Scripts
+REM https://github.com/TcNoco/TcNo-Random-Scripts
 
 @ setlocal enableextensions 
 @ cd /d "%~dp0"

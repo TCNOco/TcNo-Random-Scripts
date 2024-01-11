@@ -2,7 +2,7 @@
 # WEBP is a much more compressed format that uses far less space for good quality image files.
 # This script keeps metadata and chunk information (specifically just the UserComment) so you can drag files back into the software and keep your prompts.
 # Created by Wesley Pyburn (TroubleChute)
-# https://github.com/TcNobo/TcNo-Random-Scripts
+# https://github.com/TcNoco/TcNo-Random-Scripts
 
 import sys
 import os

@@ -3,7 +3,7 @@
 ; Just something fun I made back in July 2016
 
 ; Created by Wesley Pyburn (TroubleChute)
-; https://github.com/TcNobo/TcNo-Random-Scripts
+; https://github.com/TcNoco/TcNo-Random-Scripts
 
 *RButton::
 while getkeystate("RButton","P") {

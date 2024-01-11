@@ -14,7 +14,7 @@
 
 
 # Created by Wesley Pyburn (TroubleChute)
-# https://github.com/TcNobo/TcNo-Random-Scripts
+# https://github.com/TcNoco/TcNo-Random-Scripts
 import os
 
 #------------------
