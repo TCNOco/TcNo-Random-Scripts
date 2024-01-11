@@ -20,7 +20,7 @@ import subprocess
 from subprocess import check_output
 
 webpQuality = "90"
-deleteOriginals = True
+deleteOriginals = False
 
 for arg in sys.argv:
 	if not os.path.splitext(arg)[1].lower() in ['.jpg', '.jpeg', '.png']:
