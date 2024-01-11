@@ -4,7 +4,7 @@ REM Just a simple PNG to WEBP converter using cwebp.
 REM Add cwebp to PATH for this to work, or define the full path.
 REM Created March 2021
 
-REM Created by Wesley Pyburn (TechNobo)
+REM Created by Wesley Pyburn (TroubleChute)
 REM https://github.com/TcNobo/TcNo-Random-Scripts
 
 set outfolder=webp\

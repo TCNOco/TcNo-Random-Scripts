@@ -3,7 +3,7 @@
 ; Created August 2015
 ; (Could have been MASSIVELY improved by using a function, but I obviously didn't think of this. Might update it for fun)
 
-; Created by Wesley Pyburn (TechNobo)
+; Created by Wesley Pyburn (TroubleChute)
 ; https://github.com/TcNobo/TcNo-Random-Scripts
 
 ; Ctrl+Escape to exit

@@ -4,7 +4,7 @@
 // Use this ONLY for educational purposes.
 // Created Feb 2018
 
-// Created by Wesley Pyburn (TechNobo)
+// Created by Wesley Pyburn (TroubleChute)
 // https://github.com/TcNobo/TcNo-Random-Scripts
 
 header("Location: https://google.com");

@@ -13,7 +13,7 @@
 # .\2\2020-01-12 13-46-50_2.aac
 
 
-# Created by Wesley Pyburn (TechNobo)
+# Created by Wesley Pyburn (TroubleChute)
 # https://github.com/TcNobo/TcNo-Random-Scripts
 import os
 

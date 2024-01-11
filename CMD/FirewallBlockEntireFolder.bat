@@ -4,7 +4,7 @@ REM Then it will block those in the firewall. Super simple. Both in and out.
 REM Created sometime in 2020
 REM Video guide: https://youtu.be/4AH4SV7bGN0
 
-REM Created by Wesley Pyburn (TechNobo)
+REM Created by Wesley Pyburn (TroubleChute)
 REM https://github.com/TcNobo/TcNo-Random-Scripts
 
 @ setlocal enableextensions 

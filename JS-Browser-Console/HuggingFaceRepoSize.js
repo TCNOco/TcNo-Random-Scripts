@@ -2,7 +2,7 @@
 // This script calculates the total file size of all download links with the "title" attribute set to "Download file"
 // on the current webpage, and logs the result to the console in a human-readable format.
 //
-// Created by Wesley Pyburn (TechNobo)
+// Created by Wesley Pyburn (TroubleChute)
 // https://github.com/TcNobo/TcNo-Random-Scripts
 
 // Initialize total size variable to 0

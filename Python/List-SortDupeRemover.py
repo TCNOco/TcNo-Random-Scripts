@@ -1,5 +1,5 @@
 # Reads all lines from a file, removes duplicates and saves them sorted into another file.
-# Created by Wesley Pyburn (TechNobo)
+# Created by Wesley Pyburn (TroubleChute)
 # https://github.com/TcNobo/TcNo-Random-Scripts
 
 #------------------

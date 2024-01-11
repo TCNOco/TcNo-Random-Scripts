@@ -2,7 +2,7 @@
 ; Originally used to send a large amount of bullets towards an enemy from a semi-automatic gun ingame.
 ; Created June 2015
 
-; Created by Wesley Pyburn (TechNobo)
+; Created by Wesley Pyburn (TroubleChute)
 ; https://github.com/TcNobo/TcNo-Random-Scripts
 
 MButton::

@@ -2,7 +2,7 @@
 ; Great for messing with people ingame.
 ; Just something fun I made back in July 2016
 
-; Created by Wesley Pyburn (TechNobo)
+; Created by Wesley Pyburn (TroubleChute)
 ; https://github.com/TcNobo/TcNo-Random-Scripts
 
 *RButton::

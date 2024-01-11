@@ -5,7 +5,7 @@
 // To open item #5 to #10 on the list, you'd use startIndex=4 and endIndex=9.
 // Obviously, this is not how Steam intended for the system to be used, so use at your own risk. It's mostly here to learn from if you wanted to do anything similar for any site or project.
 //
-// Created by Wesley Pyburn (TechNobo)
+// Created by Wesley Pyburn (TroubleChute)
 // https://github.com/TcNobo/TcNo-Random-Scripts
 // Based on: https://stackoverflow.com/questions/22997516/to-find-all-emails-on-a-page/22997761
 

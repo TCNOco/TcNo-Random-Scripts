@@ -3,7 +3,7 @@
 // Also removes duplicates.
 // Don't use this for spam :)
 //
-// Created by Wesley Pyburn (TechNobo)
+// Created by Wesley Pyburn (TroubleChute)
 // https://github.com/TcNobo/TcNo-Random-Scripts
 // Based on: https://stackoverflow.com/questions/22997516/to-find-all-emails-on-a-page/22997761
 

@@ -2,7 +2,7 @@
 # Example: Turns "12-02-2020.json" into "2020-02-12.json"
 # Created 2020/02/09
 
-# Created by Wesley Pyburn (TechNobo)
+# Created by Wesley Pyburn (TroubleChute)
 # https://github.com/TcNobo/TcNo-Random-Scripts
 import os
 

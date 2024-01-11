@@ -5,7 +5,7 @@ setlocal
 REM A simple batch file to interact with 'rembg'.
 REM Drag and drop a file onto this bat file to process it and remove the background.
 
-REM Created by Wesley Pyburn (TechNobo)
+REM Created by Wesley Pyburn (TroubleChute)
 REM https://github.com/TcNobo/TcNo-Random-Scripts
 
 

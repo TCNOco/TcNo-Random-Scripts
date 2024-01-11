@@ -2,7 +2,7 @@
 ; Press Start+C to center any window.
 ; Created September 2019
 
-; Created by Wesley Pyburn (TechNobo)
+; Created by Wesley Pyburn (TroubleChute)
 ; https://github.com/TcNobo/TcNo-Random-Scripts
 
 #c::
