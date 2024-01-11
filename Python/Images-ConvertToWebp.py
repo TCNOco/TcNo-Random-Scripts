@@ -2,7 +2,14 @@
 # WEBP is a much more compressed format that uses far less space for good quality image files.
 # This script keeps metadata and chunk information (specifically just the UserComment) so you can drag files back into the software and keep your prompts.
 # Created by Wesley Pyburn (TroubleChute)
-# https://github.com/TcNoco/TcNo-Random-Scripts
+# https://github.com/TcNobo/TcNo-Random-Scripts
+
+# Can't drag onto .py files?
+# Try creating Images-ConvertToWebp.bat
+# And enter the following:
+# python Images-ConvertToWebp.py %*
+# This should allow you to drag images onto the .bat, processing them with this file.
+# NOTE: Both the .py file and bat file, named as above, should be in the same folder when run.
 
 import sys
 import os
@@ -13,6 +20,7 @@ import subprocess
 from subprocess import check_output
 
 webpQuality = "90"
+deleteOriginals = True
 
 for arg in sys.argv:
 	if not os.path.splitext(arg)[1].lower() in ['.jpg', '.jpeg', '.png']:
@@ -38,9 +46,17 @@ for arg in sys.argv:
 			#print("\n")
 
 			## Write EXIF to WEBP
-			subprocess.call(['exiftool', f'-UserComment={userComment}', filenameOut])
+			subprocess.call(['exiftool', '-overwrite_original', f'-UserComment={userComment}', filenameOut])
 			changed_data = check_output(['exiftool', filenameOut])
 			print(changed_data.decode("utf-8"))
 		elif os.path.splitext(arg)[1].lower() in ['.jpg', '.jpeg']:
 			# Copy EXIF
-			subprocess.call(['exiftool', '-TagsFromFile', filename, '-exif:all', filenameOut])
+			subprocess.call(['exiftool', '-overwrite_original', '-TagsFromFile', filename, '-exif:all', filenameOut])
+
+
+		if deleteOriginals:
+			if os.path.exists(filenameOut):
+				os.remove(filename)
+				print("Removed original file as webp exists.\n")
+			else:
+				print(f"\n\nDid not remove original file, as webp did not exist (conversion likely failed)\nFile: {filename}\nExpected output: {filenameOut}\n\n")
