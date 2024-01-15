@@ -45,7 +45,7 @@ for arg in sys.argv:
 			## Copy PNG Chunk data from original PNG
 			im = Image.open(filename)
 			im.load()  # Needed only for .png EXIF data (see citation above)
-			userComment = im.info['parameters']#.encode("unicode_escape").decode("utf-8")
+			userComment = im.info.get("parameters", "")#.encode("unicode_escape").decode("utf-8")
 			#print(userComment)
 
 			#print("\n")
